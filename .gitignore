@@ -1,0 +1,19 @@
+# --- Java / Maven Build Files ---
+**/target/
+*.class
+
+# --- Node / React Dependencies ---
+**/node_modules/
+
+# --- IDE and OS Configurations ---
+.idea/
+.DS_Store
+*.iml
+*.cmd
+
+# --- Database & Secret Security Blocks ---
+**/application.properties
+**/application.yml
+.env
+.env.local
+.env.prod
